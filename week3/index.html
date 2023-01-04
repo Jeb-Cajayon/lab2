@@ -3,12 +3,13 @@
 <head>
 <title>Page Title</title>
 <style>
+  /*comment about the list of stuff under the style tag*/
     body {
-      background-color: lightblue;
+      background-color: rgb(0, 107, 143);
     }
     
     h1 {
-      color: white;
+      color: rgb(0, 255, 221);
       text-align: center;
     }
     
@@ -16,25 +17,58 @@
       font-family: verdana;
       font-size: 20px;
     }
+
+    #para1 {
+      text-align: center;
+      color: rgb(229, 255, 0);
+    }
+
+    h1.center {
+      text-align: center;
+      color: red;
+    }
+
+    .center {
+      text-align: center;
+      color: rgb(25, 0, 255);
+    }
+
+    h2.center {
+      text-align: center;
+      color: green;
+    }
+    
+    h2.large {
+      font-size: 300%;
+    }
+
+    * {
+      text-align: center;
+      color: white;
+    }
     </style>
 </head>
 <body>
 
 <h1>My First CSS Example</h1>
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<h1 class="center">This is a Heading</h1>
+<p class="center">This is a paragraph.</p>
 
 <h1>This is heading level 1</h1>
 <h2>This is heading level 2</h2>
+<h2 class="center">This is heading level 2</h2>
+<h2 class="center large">This is heading level 2</h2>
 <h3>This is heading level 3</h3>
 
-<p>This is paragraph number one.</p>
+<p id="para1">This is paragraph number one.</p>
 <p>This is paragraph number two.</p>
 <p>This is a new paragraph.</p>
+<p style="color:rgb(247, 0, 255);">This is a new paragraph.</p>
+<p style="color:rgb(111, 0, 255);">This is a new paragraph.</p>
 
 <a href="https://youtu.be/AyOqGRjVtls">Click this link</a>
 
-<p>This is a <br> paragraph with a line break.</p>
+<p style="color:black;">This is a <br> paragraph with a line break.</p>
 
 <img src="https://media.tenor.com/images/7598d103a735d5568964e4967e42823d/tenor.gif" alt="https://i.imgflip.com/5ac9ck.gif">
 

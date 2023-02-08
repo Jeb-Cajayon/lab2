@@ -24,6 +24,7 @@ background-size: 100% auto;">
         </h1>
     </div>
 
+    <div style = "padding: 25px;">
     <?php
     $servername = "localhost";
     $username = "webprogmi212";
@@ -60,6 +61,7 @@ background-size: 100% auto;">
             
             $conn->close();
     ?>
-
+    </div>
+    
 </body>
 </html>

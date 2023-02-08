@@ -25,6 +25,7 @@ background-size: 100% auto;">
         </h1>
     </div>
 
+    <div style = "color:white;">
     <?php
 // define variables and set to empty values
 $nameErr = $emailErr = $genderErr = $websiteErr = "";
@@ -152,6 +153,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 }	
 
 ?>
-    
+</div>
+
 </body>
 </html>
